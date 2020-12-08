@@ -3,9 +3,9 @@ import moviepy.editor as mp
 import cv2
 
 
-directory = "/media/pinkie/A6FC43F0FC43B977/AData/OpenPose_images/"
-directoryToSave = "/media/pinkie/DataC/OpenPose_images/iphone_front_test_2/"
-fileName = "iphone_front_test_2.mp4"
+directory = "C:\DiplomkaData\VIDEOS/rados_anomal/"
+directoryToSave = "C:\DiplomkaData\FRAMES/rados_anomal/"
+fileName = "anomal_logi_face_rados.mp4"
 
 video = cv2.VideoCapture(directory + fileName)
 
